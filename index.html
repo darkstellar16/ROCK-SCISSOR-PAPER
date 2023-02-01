@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+
+<body>
+    <div id="one">
+        <div id="one1">
+            <div id="r">ROCK</div>
+            <div id="p">PAPER</div>
+            <div id="s">SCISSOR</div>
+        </div>
+        <div id="one2">
+            <h3>Your<br> Score</h3>
+            <div id="score">0</div>
+        </div>
+    </div>
+    <div id="two">
+        <img src="line.png" id="line1">
+        <img src="line.png" id="line2">
+        <img src="line.png" id="line3">
+        <div id="a"><button id="sciss" value="1"><img src="sciss.png"></button></div>
+        <div id="b"><button id="rock" value="2"><img src="rock.png"></button></div>
+        <div id="c"><button id="paper" value="3"><img src="paper.png"></button></div>
+        <div id="try">Try Again</div>
+    </div>
+    <div id="three">
+        <div id="a1">
+            <div id="a2"></div>
+        </div>
+        <div id="b1">
+            <div id="b2"></div>
+        </div>
+        <div id="a12">YOU PICKED</div>
+        <div id="a13">PC PICKED</div>
+        <div id="w">YOU WIN</div>
+        <div id="m">AGAINST PC</div>
+        <button id="play">PLAY AGAIN</button>
+        <div></div>
+    </div>
+    <div id="four" class="show">
+        <button id="four1">x</button>
+        <div id="game">Game Rules</div>
+        <ul id="rule">
+            <li>
+                <p>Rock beats scissors, scissors beat paper, and paper beats rock.</p>
+            </li>
+            <li>
+                <p>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper,
+                    scissors."</p>
+            </li>
+            <li>
+                <p>Use rock, paper, scissors to settle minor decisions or simply play to pass the time”</p>
+            </li>
+            <li>
+                <p>If both players lay down the same hand, each player lays down another hand</p>
+            </li>
+        </ul>
+    </div>
+    <button id="rule1">RULES</button>
+    <script src="Game.js"></script>
+</body>
+
+</html>
